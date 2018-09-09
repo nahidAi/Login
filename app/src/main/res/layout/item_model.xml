@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <Button
+                    android:id="@+id/btnDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button_background"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    android:text="حذف" />
+
+
+                <TextView
+                    android:id="@+id/txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="نام کاربری :" />
+                <TextView
+                    android:id="@+id/txtNameInsert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/txtName"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:textSize="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="ناهید" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp">
+
+                <Button
+                    android:id="@+id/btnEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:background="@drawable/button_background"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="ویرایش" />
+
+                <TextView
+                    android:id="@+id/txtPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="رمز عبور :" />
+                <TextView
+                    android:id="@+id/txtPassInsert"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@id/txtPass"
+                    android:paddingRight="16dp"
+                    android:paddingTop="16dp"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="123455" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
